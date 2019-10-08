@@ -1,0 +1,45 @@
+.container_homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_homePage img{
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.connexion{
+    margin-top: 70px;
+}
+
+.id, .password{
+    padding: 20px;
+    color: white;
+}
+
+.box{
+    border: 2px solid white;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.button{
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    color: #2B5554;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 100px; 
+}
