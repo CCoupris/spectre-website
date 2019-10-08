@@ -22,12 +22,7 @@ body{
     color: white;
 }
 
-.box{
-    border: 2px solid white;
-    width: 300px;
-    height: 40px;
-    border-radius: 3px;
-}
+
 
 .button{
     margin-top: 20px;
@@ -72,12 +67,13 @@ footer{
 .explications_container_box{
     z-index: 1;
     background: black; 
-    opacity: 90%;
+    opacity: 0.9;
     width: 1000px;
     height: 600px;   
     border: 2px solid  #00FF01;
     border-radius: 5px;
     position: absolute;
+    margin-top: -4%;
 }
 
 .explications_container{
@@ -85,6 +81,7 @@ footer{
     display: flex;
     width: 700px;
     flex-direction: column;
+    margin-top: 0%;
 }
 
 .explications_container img{
@@ -105,4 +102,29 @@ footer{
     margin: 50px auto;
 
 }
+
+// code d'accès 
+
+.box{
+    border: 2px solid white;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.all_point{
+    margin: 10px 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.point{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+    opacity: 1;
+}
+
 
