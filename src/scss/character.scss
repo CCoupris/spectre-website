@@ -10,7 +10,7 @@
     height: 100%;
 }
 
-p {
+* {
     color: white;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .subDiv1__bottom{
-    height: 30%;
+    height: 20%;
 }
 
 
@@ -81,6 +81,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 // style
@@ -91,14 +92,54 @@ p {
 // --------------------------------------
 
 .subDiv1__top__profile{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.subDiv1__top__profile__right{
     background-color: #2B5554;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-left: 20px;
+    
+    width: 35px;
 }
 
-.subDiv1__top__profile img{
-    height: 219px;
-    width: 220;
+.subDiv1__top__profile__left{
+    background-color: #2B5554;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    
 }
 
+.subDiv1__top__profile__left img{
+    height: 180px;
+    width: 180px;
+}
+
+.subDiv1__top__profile__left p{
+    text-align: center;
+    
+}
+
+.subDiv1__top__profile__left p:nth-of-type(1){
+   text-align: start;
+   background: #223F3E; 
+    
+}
+
+.subDiv1__top__profile__left p:nth-of-type(2){
+    font-size: 26px;
+}
+
+.subDiv1__top__profile__left p:nth-of-type(4){
+    text-align: end;
+}
 
 // -------------------------------------
 // subDiv1__top__partners (div de droite PARTNERS)
@@ -106,6 +147,21 @@ p {
 
 .subDiv1__top__partners{
     border: 5px solid #2B5554;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+
+}
+
+.subDiv1__top__partners p{
+    text-align: center;
+}
+
+.subDiv1__top__partners img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 7px;
 }
 
 // -------------------------------------
@@ -114,7 +170,26 @@ p {
 
 .subDiv1__bottom{
     background-color: #2B5554;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+         
+}
+
+.subDiv1__bottom img{
+    width: 138px;
+    height: 165px;
+    
+}
+
+.subDiv1__bottom .subDiv1__bottom__infos{
+    text-align: start;
+    background: #223F3E;
+}
+
+.subDiv1__bottom .subDiv1__bottom__infosData{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -127,6 +202,7 @@ p {
 .subDiv2{
     background-color: #2B5554;
     margin-left: 20px;
+    height: 52%;
 }
 
 
