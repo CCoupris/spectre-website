@@ -127,6 +127,10 @@
     
 }
 
+.subDiv1__top__profile__left #liquidated_spacing{
+    letter-spacing: 5px;
+}
+
 .subDiv1__top__profile__left p:nth-of-type(1){
    text-align: start;
    background: #223F3E; 
@@ -203,6 +207,10 @@
     background-color: #2B5554;
     margin-left: 20px;
     height: 52%;
+}
+
+.subDiv2 p{
+    text-align: end;
 }
 
 
