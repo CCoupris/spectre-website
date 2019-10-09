@@ -157,7 +157,7 @@ font-size: 1.5rem;
   font-family: 'Source Code Pro', monospace;
 }
 
-.console_password, .console_begin{
+.console_begin{
   display: flex;
   margin-top: 10%;
   margin-left: 5%;
@@ -166,6 +166,9 @@ font-size: 1.5rem;
 
 .console_password{
   display: none;
+  margin-top: 10%;
+  margin-left: 5%;
+  align-items: center;
 }
 
 .console_password_box, .console_begin_box{

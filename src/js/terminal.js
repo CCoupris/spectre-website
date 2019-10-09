@@ -4,7 +4,7 @@
 const consoleInputBegin = document.querySelector('.console_begin_box')
 const help = document.querySelector('.help')
 let value = null
-const password_box = document.querySelector('.console_password2')
+const password_box = document.querySelector('.console_password')
 
 
 consoleInputBegin.addEventListener('keydown', function(_event)
@@ -17,7 +17,7 @@ consoleInputBegin.addEventListener('keydown', function(_event)
         
     }
     if(_event.key === 'Enter' &&  value ===  'pwd'){
-        password_box .style.display = 'flex'
+        password_box.style.display = 'flex'
     }
 })
 
@@ -32,9 +32,11 @@ consoleInputPassword.addEventListener('keydown', function(_event){
     value_password = consoleInputPassword.value
 
     if(_event.key === 'Enter' && value_password === 'bonjour'){
+        wrong.style.display= 'none'
         right.style.display = 'block'
     }else if(_event.key == 'Enter' && value_password !=  'bonjour'){
         wrong.style.display = 'block'
+        right.sttyle.display = 'none'
     }
 })
 
