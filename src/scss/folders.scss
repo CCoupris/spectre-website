@@ -1,9 +1,9 @@
-
-.folder_container{
-  width: 80%;
-  margin:0 auto;
+.folder_body{
   background-color: #223F3E;
+
 }
+
+// Header 
 
 header{
   width: 100%;
@@ -24,6 +24,10 @@ header img{
   border-radius: 20px;
   padding: 10px;
 }
+
+//Main_container
+
+    //Menu latéral
 
 .menu{
   width: 265px;
@@ -48,14 +52,44 @@ header img{
   display: flex;
 }
 
+
+
+    //Menu_folder
+
 .menu_folder{
   display: flex;
-  
+  flex-direction: column;
+  justify-content: center;
 }
 
-.menu_folder img{
-  width: 300px;
-  height: 300px;
-  justify-items: center;
+.menu_folder>img{
+  z-index: -1;
+  width: 600px;
+  height: 600px;
+  margin-top: 10%;
+  margin-left: 10% auto;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -4%;
+}
+
+.main_folder img{
+  width: 100px;
+
+}
+
+.first_part, .second_part{
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  color: white;
+  justify-content: space-around;
+  width: 1000px;
   align-items: center;
 }
+
+.all_folders{
+  margin-top: -30%;
+}
+
