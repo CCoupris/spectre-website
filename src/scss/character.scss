@@ -1,0 +1,93 @@
+// ------------------------------
+// main Div
+// ------------------------------
+
+
+// configuration de la grande div et ses 2 sous div
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.subDiv1{
+    width: 66.66%;
+}
+
+.subDiv2{
+    width: 33.33%;
+}
+
+
+
+// ----------------------------------
+//subDiv1 (div 2/3 ecran)
+// ----------------------------------
+
+// configuration de la subDiv1
+.subDiv1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subDiv1__top{
+    width: 66.66%;
+}
+
+.subDiv1__bottom{
+    width: 33.33%;
+}
+
+
+// style
+
+
+
+
+
+
+// -------------------------------------
+// subDiv1__top (div du haut de la div des 2/3)
+// --------------------------------------
+
+
+// configuration des 2 div cote a cote dans la div du haut de subDiv1
+.subDiv1__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+// style
+
+
+// -------------------------------------
+// subDiv1__top__profile (div de gauche PROFILE)
+// --------------------------------------
+
+
+
+// -------------------------------------
+// subDiv1__top__partners (div de droite PARTNERS)
+// --------------------------------------
+
+
+// -------------------------------------
+// subDiv1__bottom (div du bas de la div des 1/3)
+// --------------------------------------
+
+
+
+
+
+
+// -------------------------------------
+// subDiv2 (div 1/3 ecran)
+// -------------------------------------
+.subDiv2{
+    background-color: #2B5554;
+}
+
+
+
