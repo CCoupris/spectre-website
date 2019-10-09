@@ -1,5 +1,10 @@
-body{
+.homepage_body{
+    background-color: #2B5554;
+}
+
+.homepage{
     margin: 100px 0;
+//    background-color: #2B5554;
 }
 .container_homePage{
     display: flex;
@@ -112,19 +117,11 @@ footer{
     border-radius: 3px;
 }
 
-.all_point{
-    margin: 10px 10px 20px;
-    display: flex;
-    flex-direction: row;
+.pass_ID, .pass_word{
+    background-color: #2B5554;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
 }
-
-.point{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: white;
-    margin-right: 5px;
-    opacity: 1;
-}
-
 

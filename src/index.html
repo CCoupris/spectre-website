@@ -10,66 +10,46 @@
   <link rel="stylesheet" href="scss/styles.scss">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-  <nav class="explications">
-    <div class="explications_container_box"></div>
-    <div class="explications_container">
-      <img src="pictures/Spectre_logo.png" alt="Spectre_logo">
-      <p>
-          Welcome Spectre Agent. 
-          It’s essential to recover the Mi6 data before they take action.
-          
-          I have provided you with a tool that allows you to access any folder with a little research. 
-          You'll have to hack passwords and manipulate the source code of their platform.
-          If you are stuck, don't hesitate to go to the instructions tab of the command prompt. 
-          
-          SPECTRE is counting on you, good luck</p>
-      <div class="explications_button">ACCEPT MISSION</div>
-    </div>
-  </nav>
-  <nav class="container_homePage">
-      <img src="./pictures/logo.png" class="homeLogo" alt="mi6 logo">
-      <div class="connexion">
-        <div class="id">
-            <h2>ID</h2>
-            <div class="box">
-              <div class="all_point">
-                  <div class="point n1"></div>
-                  <div class="point n2"></div>
-                  <div class="point n3"></div>
-                  <div class="point n4"></div>
-                  <div class="point n5"></div>
-                  <div class="point n6"></div>
-                  <div class="point n7"></div>
-                  <div class="point n8"></div>
-              </div> 
-            </div>
-        </div> 
-        <div class="password">
-            <h2>Password</h2>
-            <div class="box">
-                <div class="all_point">
-                  <div class="point n9"></div>
-                  <div class="point n10"></div>
-                  <div class="point n11"></div>
-                  <div class="point n12"></div>
-                  <div class="point n13"></div>
-                  <div class="point n14"></div>
-                  <div class="point n15"></div>
-                  <div class="point n16"></div>
-                  <div class="point n17"></div>
-                  <div class="point n18"></div>
-                  <div class="point n19"></div>
-                  <div class="point n20"></div>
-                </div> 
-            </div>
-        </div>      
+<body class="homepage_body">
+  <div class='homepage'>
+    <nav class="explications">
+      <div class="explications_container_box"></div>
+      <div class="explications_container">
+        <img src="pictures/Spectre_logo.png" alt="Spectre_logo">
+        <p>
+            Welcome Spectre Agent. 
+            It’s essential to recover the Mi6 data before they take action.
+            
+            I have provided you with a tool that allows you to access any folder with a little research. 
+            You'll have to hack passwords and manipulate the source code of their platform.
+            If you are stuck, don't hesitate to go to the instructions tab of the command prompt. 
+            
+            SPECTRE is counting on you, good luck</p>
+        <div class="explications_button">ACCEPT MISSION</div>
       </div>
-      <div class="button"><a href="folders.html">LOGIN</a></div>
-  </nav> 
+    </nav>
+    <nav class="container_homePage">
+        <img src="./pictures/logo.png" class="homeLogo" alt="mi6 logo">
+        <div class="connexion">
+          <div class="id">
+              <h2>ID</h2>
+              <div class="box">
+                <input type="password" class="pass_ID">
+              </div>
+          </div> 
+          <div class="password">
+              <h2>Password</h2>
+              <div class="box">
+                  <input type="password" class="pass_word">
+              </div>
+          </div>      
+        </div>
+        <div class="button"><a href="folders.html">LOGIN</a></div>
+    </nav> 
+    <footer>
+      <p>Ce travail a été réalisé dans le cadre d’un projet pédagogique et à des fins pédagogiques. Les droits d’exploitation n’ont pas fait l’objet d’une vérification, ni d’une acquisition.</p>
+    </footer>
+  </div>  
 </body>
-<footer>
-  <p>Ce travail a été réalisé dans le cadre d’un projet pédagogique et à des fins pédagogiques. Les droits d’exploitation n’ont pas fait l’objet d’une vérification, ni d’une acquisition.</p>
-</footer>
 <script src="js/homepage.js"></script>
 </html>
