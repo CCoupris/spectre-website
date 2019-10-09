@@ -1,3 +1,28 @@
+const button_open = document.querySelector('.button_console')
+const button_close = document.querySelector('.button_close')
+const terminal = document.querySelector('.console')
+
+// Ouverture du terminal
+
+button_open.addEventListener('click', function(){
+    terminal.style.display = 'block'
+})
+
+//Fermeture de la console
+
+button_close.addEventListener('click', function(){
+    terminal.style.display = 'none'
+})
+
+// Apparition du bouton terminal pour le perso 1
+
+const card1 = document.querySelector('.nb1')
+
+card1.addEventListener('click', function(){
+    button_open.style.display = 'flex'
+})
+
+
 // Validation du terminal de commande
 
 
@@ -31,20 +56,12 @@ const right = document.querySelector('.true')
 consoleInputPassword.addEventListener('keydown', function(_event){
     value_password = consoleInputPassword.value
 
-    if(_event.key === 'Enter' && value_password === 'bonjour'){
+    if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
         wrong.style.display= 'none'
         right.style.display = 'block'
     }else if(_event.key == 'Enter' && value_password !=  'bonjour'){
         wrong.style.display = 'block'
-        right.sttyle.display = 'none'
+        right.style.display = 'none'
     }
 })
 
-//Fermeture de la console
-
-const button = document.querySelector('.button_close')
-const terminal = document.querySelector('.console')
-
-button.addEventListener('click', function(){
-    terminal.style.display = 'none'
-})

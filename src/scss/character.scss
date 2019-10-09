@@ -214,4 +214,19 @@
 }
 
 
-
+.button_console{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: #159616;
+    position: absolute;
+    right: 200px;
+    top: 80px;
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    position: fixed;
+    font-size: 30px; 
+}
