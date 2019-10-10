@@ -40,7 +40,7 @@
     position: absolute;
 }
 
-.photoId_main{
+.bloc1{
     background-color: blue;
     position: absolute;
     width: 100%;
@@ -48,28 +48,45 @@
     margin-left: 0px;
 }
 
+.profilePicture {
+
+}
+
+.profileName {
+    font-size: 40px;
+    text-align: center;
+    margin-top:60px;
+}
+
+.profileStatus { //dead or alive
+    font-size: 28px;    
+}
+
+
 .profile_main{
-    background: green;
+    background: pink;
     width: 40%;
-    height: 100%;
+    //height: 100%;
     position: absolute;
     display: flex;
 }
 .profileText_main{
     position: absolute;
-    background-color: yellow;
-    width: 100px;;
+    background-color: #223f3e;
+    width: 150px;;
     height: 50px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
 
 .secondDiv_information_main{
-    background-color: red;
+    background-color: #2B5554;
     position: absolute;
     width: 60%;
     height: 40%;
@@ -85,6 +102,8 @@
     position: absolute; 
     margin-top: 10px;
     margin-left: 65.8%;
+    
+
 }
 
 
@@ -317,4 +336,18 @@
     font-family: 'Source Code Pro', monospace;
     position: fixed;
     font-size: 30px; 
+}
+
+
+//Partie info
+
+.profileText {
+    //background: rgb(114, 225, 240);
+    padding-top: 70px;
+    padding-left: 60px;
+    display: inline-block;
+}
+.character_features {
+    font-size: 20px;
+    margin: 30px;
 }
