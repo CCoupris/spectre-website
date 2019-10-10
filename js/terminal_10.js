@@ -77,7 +77,7 @@ function startTerminal01 (){
             right.style.display = 'block'
             
             link_01.setAttribute('href', 'characters/character01.html')
-            image_01.setAttribute('src', image01)
+            image_01.setAttribute('src', 'pictures/memberPictures/character01.png')
             image_01.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'brother' || value_password === 'Brother'){
@@ -138,7 +138,7 @@ function startTerminal02 (){
             right.style.display = 'block'
             
             link_02.setAttribute('href', 'characters/character02.html')
-            image_02.setAttribute('src', image02)
+            image_02.setAttribute('src', 'pictures/memberPictures/character02.png')
             image_02.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'jewel' || value_password === 'Jewel'){
@@ -320,7 +320,7 @@ function startTerminal07 (){
             right.style.display = 'block'
             
             link_07.setAttribute('href', 'characters/character07.html')
-            image_07.setAttribute('src', image07)
+            image_07.setAttribute('src', 'pictures/memberPictures/character07.png')
             image_07.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'pale' || value_password === 'Pale'){
