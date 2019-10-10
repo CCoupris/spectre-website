@@ -263,8 +263,8 @@
 }
 
 .subDiv2 #subDiv2__img img{
-    width: 271px;
-    height: 223px;
+    width: 317px;
+    height: 261px;
 }
     
 
@@ -279,7 +279,9 @@
 } 
 
 .subDiv2 #subDiv2__slr{
-     
+     display: flex;
+     justify-content: space-around;
+     margin-top:3%;
 } 
 
 
