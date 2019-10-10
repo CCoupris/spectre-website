@@ -1,7 +1,3 @@
-// import image01 from 'pictures/memberPictures/character01.png'
-// import image02 from 'pictures/memberPictures/character02.png'
-// import image05 from 'pictures/memberPictures/character05.png'
-// import image10 from 'pictures/memberPictures/character10.png'
 
 const button_open = document.querySelector('.button_console')
 const button_close = document.querySelector('.button_close')
@@ -76,7 +72,7 @@ function startTerminal01 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
+        if(_event.key === 'Enter' && value_password === 'brother' || value_password === 'Brother'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
@@ -84,7 +80,7 @@ function startTerminal01 (){
             image_01.setAttribute('src', image01)
             image_01.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
+        }else if(_event.key == 'Enter' && value_password !=  'brother' || value_password === 'Brother'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
@@ -137,7 +133,7 @@ function startTerminal02 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
+        if(_event.key === 'Enter' && value_password === 'jewel' || value_password === 'Jewel'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
@@ -145,7 +141,7 @@ function startTerminal02 (){
             image_02.setAttribute('src', image02)
             image_02.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
+        }else if(_event.key == 'Enter' && value_password !=  'jewel' || value_password === 'Jewel'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
@@ -198,7 +194,7 @@ function startTerminal04 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
+        if(_event.key === 'Enter' && value_password === 'revenge' || value_password === 'Revenge'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
@@ -206,7 +202,7 @@ function startTerminal04 (){
             image_04.setAttribute('src', 'pictures/memberPictures/character04.png')
             image_04.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
+        }else if(_event.key == 'Enter' && value_password !=  'revenge' || value_password === 'Revenge'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
@@ -258,7 +254,7 @@ function startTerminal05 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
+        if(_event.key === 'Enter' && value_password === 'casino' || value_password === 'Casino'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
@@ -266,7 +262,7 @@ function startTerminal05 (){
             image_05.setAttribute('src', 'pictures/memberPictures/character05.png')
             image_05.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
+        }else if(_event.key == 'Enter' && value_password !=  'casino' || value_password === 'Casino'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
@@ -319,15 +315,15 @@ function startTerminal07 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
+        if(_event.key === 'Enter' && value_password === 'pale' || value_password === 'Pale'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
-            link_05.setAttribute('href', 'characters/character05.html')
-            image_05.setAttribute('src', image05)
-            image_05.setAttribute('alt', 'new')
+            link_07.setAttribute('href', 'characters/character07.html')
+            image_07.setAttribute('src', image07)
+            image_07.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
+        }else if(_event.key == 'Enter' && value_password !=  'pale' || value_password === 'Pale'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
@@ -379,7 +375,7 @@ function startTerminal10 (){
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
 
-        if(_event.key === 'Enter' && value_password === 'casino' || value_password === 'Casino'){
+        if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
@@ -387,7 +383,7 @@ function startTerminal10 (){
             image_10.setAttribute('src', 'pictures/memberPictures/character10.png')
             image_10.setAttribute('alt', 'new')
 
-        }else if(_event.key == 'Enter' && value_password !=  'casino' || value_password === 'Casino'){
+        }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
             wrong.style.display = 'block'
             right.style.display = 'none'
         }
