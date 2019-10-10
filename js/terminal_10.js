@@ -51,7 +51,7 @@ function startTerminal01 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
@@ -112,7 +112,7 @@ function startTerminal02 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
@@ -173,7 +173,7 @@ function startTerminal04 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
@@ -233,7 +233,7 @@ function startTerminal05 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
@@ -294,7 +294,7 @@ function startTerminal07 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
@@ -354,7 +354,7 @@ function startTerminal10 (){
         value = consoleInputBegin.value
  
         console.log(value)
-        if(_event.key === 'Enter' && value === '/help')
+        if(_event.key === 'Enter' && value === 'help')
         {
             help.style.display = 'block'
             
