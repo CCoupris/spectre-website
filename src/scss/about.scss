@@ -1,7 +1,37 @@
-.background_logo {
-  width: 300px;
+@font-face{
+  font-family: SpectreFont;
+  src: url("../font/SpectreFont.ttf")
 }
 
-.trailer {
-  border-radius: 10px;
+.spectreFont{
+  font-family: SpectreFont;
+  font-weight: bold;
+  font-size: 50px;
+  
 }
+
+.about__menu{
+  position: relative;  
+}
+
+.menu__synopsis{
+  position: relative;
+  bottom: 400px;
+  left: 700px;
+}
+
+.menu__video{
+  position: relative;
+  bottom: 350px;
+  left: 730px;
+}
+
+.menu__tickets{
+  position: relative;
+  bottom: 300px;
+  left: 710px;
+}
+
+
+
+
