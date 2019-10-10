@@ -1,7 +1,7 @@
-// import image02 from '../pictures/memberPictures/character02.png'
-// import image04 from '../pictures/memberPictures/character04.png'
-// import image05 from '../pictures/memberPictures/character05.png'
-// import image10 from '../pictures/memberPictures/character10.png'
+// import image01 from 'pictures/memberPictures/character01.png'
+// import image02 from 'pictures/memberPictures/character02.png'
+// import image05 from 'pictures/memberPictures/character05.png'
+// import image10 from 'pictures/memberPictures/character10.png'
 
 const button_open = document.querySelector('.button_console')
 const button_close = document.querySelector('.button_close')
@@ -81,7 +81,7 @@ function startTerminal01 (){
             right.style.display = 'block'
             
             link_01.setAttribute('href', 'characters/character01.html')
-            image_01.setAttribute('src', 'pictures/memberPictures/character01.png')
+            image_01.setAttribute('src', image01)
             image_01.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
@@ -203,7 +203,7 @@ function startTerminal04 (){
             right.style.display = 'block'
             
             link_04.setAttribute('href', 'characters/character04.html')
-            image_04.setAttribute('src', image04)
+            image_04.setAttribute('src', 'pictures/memberPictures/character04.png')
             image_04.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
@@ -262,8 +262,8 @@ function startTerminal05 (){
             wrong.style.display= 'none'
             right.style.display = 'block'
             
-            link_05.setAttribute('href', '../characters/character05.html')
-            image_05.setAttribute('src', image05)
+            link_05.setAttribute('href', 'characters/character05.html')
+            image_05.setAttribute('src', 'pictures/memberPictures/character05.png')
             image_05.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
@@ -384,7 +384,7 @@ function startTerminal10 (){
             right.style.display = 'block'
             
             link_10.setAttribute('href', 'characters/character10.html')
-            image_10.setAttribute('src', image10)
+            image_10.setAttribute('src', 'pictures/memberPictures/character10.png')
             image_10.setAttribute('alt', 'new')
 
         }else if(_event.key == 'Enter' && value_password !=  'casino' || value_password === 'Casino'){
@@ -393,4 +393,6 @@ function startTerminal10 (){
         }
     })
 }
+
+
 
