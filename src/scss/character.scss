@@ -11,119 +11,12 @@
 
 * {
     color: white;
+    overflow: hidden;
 }
 
 // ------------------------------
 // main Div
 // ------------------------------
-
-
-// Main div Zoé 
-
-.member_main{
-    background-color: pink;
-    width: 90%;
-    height: 850px;;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;;
-    position: relative;
-}
-
-.information_main{
-    background-color: black;
-    width: 60%;
-    height: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    position: absolute;
-}
-
-.bloc1{
-    background-color: blue;
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    margin-left: 0px;
-}
-
-.profilePicture {
-
-}
-
-.profileName {
-    font-size: 40px;
-    text-align: center;
-    margin-top:60px;
-}
-
-.profileStatus { //dead or alive
-    font-size: 28px;    
-}
-
-
-.profile_main{
-    background: pink;
-    width: 40%;
-    //height: 100%;
-    position: absolute;
-    display: flex;
-}
-.profileText_main{
-    position: absolute;
-    background-color: #223f3e;
-    width: 150px;;
-    height: 50px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-
-
-.secondDiv_information_main{
-    background-color: #2B5554;
-    position: absolute;
-    width: 60%;
-    height: 40%;
-    margin-top: 510px;
-}
-
-
-
-.localisation_main{
-    background-color: aqua;
-    width: 33.6%;
-    height: 137.8%;
-    position: absolute; 
-    margin-top: 10px;
-    margin-left: 65.8%;
-    
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // configuration de la grande div et ses 2 sous div
@@ -138,7 +31,7 @@
 }
 
 .subDiv1{
-    width: 60%;
+    width: 55%;
 }
 
 .subDiv2{
@@ -160,10 +53,11 @@
 .subDiv1{
     display: flex;
     flex-direction: column;
+    margin-right: 2px;
 }
 
 .subDiv1__top{
-    height: 30%;
+    height: 32%;
 }
 
 .subDiv1__bottom{
@@ -212,21 +106,25 @@
     padding-bottom: 8%;
     margin-left: 20px;
     
-    width: 35px;
+    width: 45px;
 }
 
 .subDiv1__top__profile__left{
     background-color: #2B5554;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 4%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 2%;
     padding-bottom: 8%;
+    width: 265px;
+    height: 100%;
     
 }
 
 .subDiv1__top__profile__left img{
     height: 180px;
     width: 180px;
+    display: block;
+    margin: 0 auto;
 }
 
 .subDiv1__top__profile__left p{
@@ -236,20 +134,26 @@
 
 .subDiv1__top__profile__left #liquidated_spacing{
     letter-spacing: 5px;
+    margin-top: 1%;
+    font-size: 20px;
 }
 
-.subDiv1__top__profile__left p:nth-of-type(1){
+.subDiv1__top__profile__left #profileTitle{
    text-align: start;
-   background: #223F3E; 
-    
+   background: #223F3E;
+   width: 29%;
+   height: 11%;
+   padding-bottom: 10%;
+   padding-top: 3%;
 }
 
-.subDiv1__top__profile__left p:nth-of-type(2){
-    font-size: 26px;
+.subDiv1__top__profile__left #profileName{
+    font-size: 34px;
 }
 
-.subDiv1__top__profile__left p:nth-of-type(4){
+.subDiv1__top__profile__left #profileId{
     text-align: end;
+    padding-right: 4%;
 }
 
 // -------------------------------------
@@ -262,6 +166,7 @@
     padding-right: 2%;
     padding-top: 2%;
     padding-bottom: 8%;
+    width: 260px;
 
 }
 
@@ -312,8 +217,9 @@
 // -------------------------------------
 .subDiv2{
     background-color: #2B5554;
-    margin-left: 20px;
-    height: 52%;
+    margin-left: 14px;
+    margin-right: 2px;
+    height: 54%;
 }
 
 .subDiv2 p{
