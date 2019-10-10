@@ -7,7 +7,7 @@ __Hello Spectre Agent, you have to go on the MI6 [website](https://mi6interface.
 
 
 
-![spectre logo](https://cdn.discordapp.com/attachments/507123772910731267/631773184886046731/image_19.png)
+![spectre logo](https://cdn.discordapp.com/attachments/507123772910731267/631778971591114752/Spctre.png)
 
 
 ## A school project
