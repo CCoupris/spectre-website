@@ -30,8 +30,8 @@ header img{
     //Menu latéral
 
 .menu{
+
   width: 265px;
-  height: 1000px;
   background-color: #2B5554;
   display: flex;
   flex-direction: column;
@@ -40,12 +40,12 @@ header img{
 .folder{
   display: flex;
   align-items: center;
-  justify-content: space-around; 
   margin: 30px;
 }
 
 .folder h3{
   color: white;
+  padding: 10%;
 }
 
 .main_container{
@@ -79,7 +79,7 @@ header img{
 }
 
 .first_part, .second_part{
-  margin-left: 20%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   margin-top: 10%;
@@ -89,9 +89,7 @@ header img{
   align-items: center;
 }
 
-.all_folders{
-  margin-top: -30%;
-}
+
 
 .main_folder{
   display: flex;
@@ -101,7 +99,8 @@ header img{
 
 .main_folder h3{
   margin-top: 10px;
-font-size: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 // Console css
