@@ -65,6 +65,8 @@ function startTerminal01 (){
     let value_password = null
     const wrong = document.querySelector('.wrong')
     const right = document.querySelector('.true')
+    const link_01 = document.querySelector('.link_01')
+    const image_01 = document.querySelector('.image_01')
 
     consoleInputPassword.addEventListener('keydown', function(_event){
         value_password = consoleInputPassword.value
@@ -72,6 +74,11 @@ function startTerminal01 (){
         if(_event.key === 'Enter' && value_password === 'metal' || value_password === 'Metal'){
             wrong.style.display= 'none'
             right.style.display = 'block'
+            
+            link_01.setAttribute('href', 'characters/character01.html')
+            image_01.setAttribute('src', '../pictures/memberPictures/character01.png')
+            image_01.setAttribute('class', 'new')
+
         }else if(_event.key == 'Enter' && value_password !=  'metal' || value_password === 'Metal'){
             wrong.style.display = 'block'
             right.style.display = 'none'
