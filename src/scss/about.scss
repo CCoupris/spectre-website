@@ -3,6 +3,11 @@
   src: url("../font/SpectreFont.ttf")
 }
 
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .spectreFont{
   font-family: SpectreFont;
   font-weight: bold;
@@ -11,7 +16,8 @@
 }
 
 .about__menu{
-  position: relative;  
+  position: relative;
+  
 }
 
 .menu__synopsis{
@@ -46,6 +52,7 @@
 .about__synopsis p:nth-of-type(1){
   font-family: SpectreFont;
   font-size: 70px;
+  padding-top: 93px;
   margin-bottom: 60px;
 }
 
