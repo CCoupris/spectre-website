@@ -19,13 +19,7 @@ _Enjoy!_
 
 ## Set Up
 
-If you want to open the project in local, follow this guide : 
-
-
-* Clone this repository
-* Open the terminal and write `npm install`
-* Write `npm run dev`
-* The local server starts, you just have to open it in your browser.
+If you want to open the project in local, you just have to open index.html in your browser.
 
 
 
